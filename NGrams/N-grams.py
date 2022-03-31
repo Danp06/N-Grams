@@ -56,7 +56,8 @@ for i in range(1):
     for z in TriTop:
         print("Tri-grams", z[i], "/ N° Frecuencia ->", z[i+1])
 
-with open("C:/Users/danie/Documents/U/6to Semestre/Inteligencia Artificial/2do Corte/internet_archive_scifi_v3.txt", "r", encoding='utf-8') as file:
+with open("C:/Users/danie/Documents/U/6to Semestre/Inteligencia Artificial/2do Corte/internet_archive_scifi_v3.txt",
+          "r", encoding='utf-8') as file:
     text2 = file.read()
 
 # let's do some preprocessing. We don't care about the XML notation, new lines
